@@ -346,4 +346,16 @@ footer .underline {
     .desktop-card {
         display: flex;
     }
+    /* second section */
+    .two-columns {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    .two-col {
+        width: 40%;
+    }
+    .scale-desk {
+        transform: scale(0.7);
+    }
 }
