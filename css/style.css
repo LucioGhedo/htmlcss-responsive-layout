@@ -7,6 +7,9 @@
 img {
     width: 100%;
 }
+body {
+    font-family: 'PT Sans', sans-serif;
+}
 
 /* COMMON */
 .container {
@@ -201,9 +204,61 @@ header .container {
     background-color: #9792e3;
     width: fit-content;
 }
+#about-us {
+    margin-bottom: 3rem;
+}
 
 /* get started sect */
+#get-started {
+    background-color: #9792e3;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+#get-started h3 {
+    color: lightgray;
+    font-weight: 200;
+}
+#get-started h2 {
+    color: inherit;
+}
+#get-started .gold {
+    font-size: 70px;
+    color: goldenrod;
+}
+#get-started p {
+    color: lightgray;
+}
+#get-started .btn {
+    background-color: white;
+    color: #9792e3;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 50%;
+    padding: 15px 0;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.underline {
+    text-decoration: underline;
+}
 
+/* FOOTER */
+footer {
+    background-color: #333333;
+    padding: 25px 0;
+    text-align: center;
+}
+footer p {
+    color: white;
+    padding: 35px 0;
+}
+footer p:last-child {
+    padding: 35px 15px;
+}
+footer .underline {
+    color: #9792e3;
+}
 
 /* MEDIA */
 
