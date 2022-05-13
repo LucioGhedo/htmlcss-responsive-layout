@@ -151,6 +151,36 @@ header .container {
 #testimonials .row-card p {
     color: white;
 }
+
+/* BENEFIT SECT */
+#benefit {
+    background-color: #9792e3;
+    padding-bottom: 2rem;
+}
+#benefit h2 {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+.benefit-col {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+#benefit .benefit-col h2 {
+    color: #9792e3;
+    text-align: left;
+    font-size: 34px;
+}
+#benefit h3 {
+    font-size: 45px;
+    color: #9792e3;
+}
+#benefit .purple {
+    background-color: #9792e3;
+    padding: 5px 45px;
+}
 /* MEDIA */
 
 /* tablet */
