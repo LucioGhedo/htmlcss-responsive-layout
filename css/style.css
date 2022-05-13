@@ -85,6 +85,9 @@ header .container {
     font-size: 70px;
     color: #0084fd;
 }
+.card p {
+    font-weight: 700;
+}
 
 /* second section */
 #second-section {
@@ -133,6 +136,10 @@ header .container {
     margin-top: 2rem;
     font-size: 20px;
     margin-bottom: 2rem;
+}
+#testimonials h3 {
+    font-size: smaller;
+    font-weight: 400;
 }
 #testimonials h2 {
     color: #9792e3;
@@ -264,6 +271,10 @@ footer .underline {
 
 /* tablet */
 @media all and (min-width:768px) {
+    /* common */
+    .container {
+        width: 90%;
+    }
     /* first sect */
     .columns-intro {
         display: flex;
