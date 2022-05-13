@@ -1,0 +1,34 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* HEADER */
+header {
+    background-color: #0084fd;
+    height: 80px;
+}
+.ul-desktop {
+    display: none;
+}
+header .flex {
+    height: 100%;
+}
+header .container {
+    height: 100%;
+}
+.burger {
+    color: white;
+    font-size: 24px;
+}
