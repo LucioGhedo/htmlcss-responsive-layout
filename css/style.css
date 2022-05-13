@@ -55,8 +55,16 @@ header {
     background-color: #0084fd;
     height: 80px;
 }
+.header-btn {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
 .ul-desktop {
     display: none;
+    width: 55vh;
+    color: white;
 }
 header .flex {
     height: 100%;
@@ -67,6 +75,12 @@ header .container {
 .burger {
     color: white;
     font-size: 24px;
+}
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
 }
 /* MAIN */
 .col {
@@ -320,5 +334,15 @@ footer .underline {
     }
     .col-about {
         width: 45%;
+    }
+}
+/* desktop */
+@media all and (min-width: 992px) {
+    /* header */
+    .burger {
+        display: none;
+    }
+    .ul-desktop {
+        display: inline-block;
     }
 }
