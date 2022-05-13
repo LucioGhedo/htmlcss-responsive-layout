@@ -141,6 +141,7 @@ header .container {
     font-size: smaller;
     font-weight: 400;
 }
+
 #testimonials h2 {
     color: #9792e3;
 }
@@ -213,6 +214,9 @@ header .container {
 }
 #about-us {
     margin-bottom: 3rem;
+}
+.height {
+    line-height: 35px;
 }
 
 /* get started sect */
@@ -293,6 +297,9 @@ footer .underline {
     }
     .left {
         text-align: left;
+    }
+    .paddingl {
+        padding-left: 20px;
     }
     /* why us sect */
     .benefit-col {
