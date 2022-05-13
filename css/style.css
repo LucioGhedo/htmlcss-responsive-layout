@@ -237,4 +237,15 @@ header .container {
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    /* about us sect */
+    .about-us-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    #about-us img {
+        margin-top: 2rem;
+    }
+    .col-about {
+        width: 45%;
+    }
 }
