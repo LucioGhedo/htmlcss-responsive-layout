@@ -185,6 +185,7 @@ header .container {
 
 /* tablet */
 @media all and (min-width:768px) {
+    /* first sect */
     .columns-intro {
         display: flex;
         flex-wrap: wrap;
@@ -196,7 +197,20 @@ header .container {
     .columns-intro .col:first-child {
         width: calc(((100% / 3)* 2) - 20px );
     }
+    /* testimonials */
     .responsive-flex {
         display: flex;
+    }
+    .left {
+        text-align: left;
+    }
+    /* why us sect */
+    .benefit-col {
+        width: calc(100% / 2 - 10px);
+    }
+    .whyus-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
