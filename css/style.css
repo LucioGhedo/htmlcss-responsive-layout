@@ -92,9 +92,12 @@ header .container {
 .two-col img {
     margin: 2rem 0;
 }
-#second-section h2, p {
+#second-section h2 {
     color: white;
     margin: 1rem 0;
+}
+#second-section p {
+    color: white;
 }
 .white-bck {
     border-radius: 35px;
@@ -121,7 +124,33 @@ header .container {
 .relative {
     position: relative;
 }
-
+/* TESTIMONIAL SECTION */
+#testimonials {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+#testimonials h2 {
+    color: #9792e3;
+}
+#testimonials p {
+    color: black;
+}
+#testimonials img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.row-card {
+    background-color: #9792e3;
+    border-radius: 15%;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+#testimonials .row-card p {
+    color: white;
+}
 /* MEDIA */
 
 /* tablet */
